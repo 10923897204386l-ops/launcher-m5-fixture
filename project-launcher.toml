@@ -1,0 +1,7 @@
+schema_version = 1
+[project]
+name = "M5 Build Fixture"
+branch = "main"
+[flatpak]
+app_id = "org.example.ProjectLauncherFixture"
+manifest = "org.example.ProjectLauncherFixture.json"
