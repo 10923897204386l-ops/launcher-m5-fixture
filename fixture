@@ -1,0 +1,2 @@
+#!/bin/sh
+printf '%s\n' 'Project Launcher M5 fixture OK'
