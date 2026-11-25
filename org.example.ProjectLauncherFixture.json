@@ -1,0 +1,22 @@
+{
+  "id": "org.example.ProjectLauncherFixture",
+  "runtime": "org.freedesktop.Platform",
+  "runtime-version": "25.08",
+  "sdk": "org.freedesktop.Sdk",
+  "command": "fixture",
+  "modules": [
+    {
+      "name": "fixture",
+      "buildsystem": "simple",
+      "build-commands": [
+        "install -Dm755 fixture /app/bin/fixture"
+      ],
+      "sources": [
+        {
+          "type": "file",
+          "path": "fixture"
+        }
+      ]
+    }
+  ]
+}
